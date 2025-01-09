@@ -7,8 +7,7 @@ export default function Home() {
       {/* Header */}
       <header className="w-full bg-white shadow-md px-8 sm:px-20 py-4 flex justify-between items-center">
         <div className="flex items-center gap-4">
-          <Image src="/images/RivieraLogo-removebg-preview.png" alt="Your Logo" width={60} height={60} />
-          <h1 className="text-xl font-bold text-gray-800">Riviera Labs</h1>
+          <Image src="/images/RivieraLogo-removebg-preview.png" alt="Your Logo" width={190} height={"190"} />
         </div>
         <nav className="hidden sm:flex gap-6 text-gray-600">
           <a href="#home" className="hover:text-gray-800">
@@ -42,7 +41,7 @@ export default function Home() {
           The 24/7 AI Phone Operator for Hotels
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mb-8">
-        Voice AI for hotels that answers calls, takes orders, handles questions, books reservations & more so you never miss a call again.
+        Voice AI for hotels that answers calls, takes orders, handles questions, books reservations &amp; more so you never miss a call again.
         </p>
         <form className="flex flex-col sm:flex-row gap-4 items-center w-full max-w-lg">
           <input
@@ -107,9 +106,6 @@ export default function Home() {
           operations without missing a beat.
         </p>
         <div className="flex flex-wrap justify-center gap-8">
-          <Image src="/revel-logo.svg" alt="Revel" width={60} height={60} />
-          <Image src="/square-logo.svg" alt="Square" width={60} height={60} />
-          <Image src="/spoton-logo.svg" alt="SpotOn" width={60} height={60} />
         </div>
       </section>
 
