@@ -86,7 +86,7 @@ export default function Home() {
               Custom Training
             </h3>
             <p className="text-gray-600">
-              Tailored to your hotel's unique needs, ensuring every guest gets
+              Tailored to your unique needs, ensuring every guest gets
               the right answers.
             </p>
           </div>
